@@ -80,4 +80,3 @@ $(function() {
 
 });
 
-$( '#uc-container' ).pfold();

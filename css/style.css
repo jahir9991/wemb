@@ -197,7 +197,7 @@ header .carousel .item img {
 
 /*...........page...............................................................................*/
 .page {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .page h1 {
@@ -265,6 +265,7 @@ and(max-width: 768px) {
 /*********************page--practice**********************************/
 .pagep {
     padding: 50px 0;
+    background-image: linear-gradient(to bottom, #e4d29d, #cdae50);
 }
 
 .pagep h1 {
@@ -298,12 +299,13 @@ and(max-width: 768px) {
 
 /***********************  page---Staff ***********************************/
 #staff {
-    background-color: #e4d29d;
+    /*background-color: #e4d29d;*/
     background-image: linear-gradient(to bottom, #e4d29d, #cdae50);
+
 }
 
 .doctor {
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
 .doctor h3 {
@@ -313,8 +315,13 @@ and(max-width: 768px) {
     padding-bottom: 5px;
 }
 
-.doctor p {
-    font-size: .8em;
+.doctor p a{
+    /*font-size: .8em;*/
+    width: 100%;
+
+
+    margin-left: -40px;
+
 }
 
 .doctor img {
